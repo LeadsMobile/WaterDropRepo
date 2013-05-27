@@ -21,6 +21,7 @@
 		6940D5B0175329FD00246FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6940D591175329FD00246FAF /* Foundation.framework */; };
 		6940D5B8175329FD00246FAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6940D5B6175329FD00246FAF /* InfoPlist.strings */; };
 		6940D5BB175329FD00246FAF /* WaterDropAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6940D5BA175329FD00246FAF /* WaterDropAppTests.m */; };
+		AEF092AE17532CD500FFF06D /* StoryboardCustomerProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF092AD17532CD500FFF06D /* StoryboardCustomerProfile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6940D5B7175329FD00246FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6940D5B9175329FD00246FAF /* WaterDropAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterDropAppTests.h; sourceTree = "<group>"; };
 		6940D5BA175329FD00246FAF /* WaterDropAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterDropAppTests.m; sourceTree = "<group>"; };
+		AEF092AD17532CD500FFF06D /* StoryboardCustomerProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardCustomerProfile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		6940D583175329FD00246FAF = {
 			isa = PBXGroup;
 			children = (
+				AEF092AD17532CD500FFF06D /* StoryboardCustomerProfile.storyboard */,
 				6940D595175329FD00246FAF /* WaterDropApp */,
 				6940D5B3175329FD00246FAF /* WaterDropAppTests */,
 				6940D58E175329FD00246FAF /* Frameworks */,
@@ -227,6 +230,7 @@
 				6940D5A2175329FD00246FAF /* Default.png in Resources */,
 				6940D5A4175329FD00246FAF /* Default@2x.png in Resources */,
 				6940D5A6175329FD00246FAF /* Default-568h@2x.png in Resources */,
+				AEF092AE17532CD500FFF06D /* StoryboardCustomerProfile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 				6940D5C0175329FD00246FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6940D5C1175329FD00246FAF /* Build configuration list for PBXNativeTarget "WaterDropAppTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +448,7 @@
 				6940D5C3175329FD00246FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
